@@ -19,7 +19,7 @@ I have no experience with React but am excited to learn because it's an industry
 
 [https://reactjs.org/tutorial/tutorial.html](https://reactjs.org/tutorial/tutorial.html)
 
-** working on inserting the react app now onto my github page **
+** currently working on inserting the react app onto my github page , but it works on localhost **
 
 
 # Change Log
