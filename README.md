@@ -16,9 +16,18 @@ I have very minimal front end experience (HTML, CSS, and Javscript). The most CS
 
 ### Tic Tac Toe (React)
 I have no experience with React but am excited to learn because it's an industry standard for web dev. 
+
 [https://reactjs.org/tutorial/tutorial.html](https://reactjs.org/tutorial/tutorial.html)
 
 
-# ChangeLog
+# Change Log
+- week 1
+    - github page setup (name, udel email, clickable link, added a theme)
+- week 2
+    - portfolio sections for tutorials, changelog, todo
+    - learned more about css and react
 
 # TODO
+- portfolio section for code that isn't from a tutorial
+- learn more about typescript, hooks, HTML, javascript
+- apply bootstrap features
