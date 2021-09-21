@@ -1,3 +1,28 @@
-This is the lab file. 
-TESTING
-<a href="laurenbaron.github.io/dummy.html"> dummy html </a>      
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Full Name</label>
+              <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+              <div id="nameHelp" class="form-text">Hi!</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Click me</label>
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="myFunction()">Submit</button>
+
+            <p>Click the "Submit" button to get your results</p>
+
+            <p id="showName"></p>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("name").value;
+                    document.getElementById("showName").innerHTML = x;
+                }
+            </script>
+        </form>
+
+    </body>
+</html>
