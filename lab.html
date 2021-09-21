@@ -4,8 +4,7 @@
         <form>
             <div class="mb-3">
               <label for="exampleInputName" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
-              <div id="nameHelp" class="form-text">Hi!</div>
+              <input type="text" class="form-control" id="exampleInputName">
             </div>
             
             <button type="submit" class="btn btn-primary" onclick="myFunction()">Submit</button>
@@ -16,7 +15,7 @@
 
             <script>
                 function myFunction() {
-                    var x = document.getElementById("name").value;
+                    var x = document.getElementById("exampleInputName").value;
                     document.getElementById("showName").innerHTML = x;
                 }
             </script>
